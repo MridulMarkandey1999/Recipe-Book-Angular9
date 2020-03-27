@@ -20,8 +20,12 @@
         $ code .
 
         $ ng serve
+        
 
-
+- You must have bootstrap version 3. Run these commands in command prompt
+        
+        $ npm install --save bootstrap@3
+        
 
 - Now you need to set up your back-end and database. For that, I have used FIREBASE.
 
