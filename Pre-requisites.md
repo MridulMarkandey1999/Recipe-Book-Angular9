@@ -40,12 +40,13 @@
   e) Then after that, click DataBase --->In realtime database, click create database ---> start in test mode ----> enable
   
   f) In rules, change default text to this text:
-        {
-          "rules": {
-            ".read": "auth != null",
-            ".write": "auth != null"
-          }
-        }
+  
+                {
+                  "rules": {
+                    ".read": "auth != null",
+                    ".write": "auth != null"
+                  }
+                }
         
   g) Go to data and copy your  URL ; for eg : mine is **https://ng-course-recipe-book-55554.firebaseio.com/**
   
