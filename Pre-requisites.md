@@ -1,5 +1,5 @@
 
-## PRE-REQUISITES/ HOW TO RUN:
+## PRE-REQUISITES:
 
 - First you need to install angular CLI with the help of npm. And for that, you need to install Node.js
 
