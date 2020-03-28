@@ -6,6 +6,23 @@ Build an awesome reactive front-end web application, designed especially for tho
     1. Login Route
     2. Products Route
     
+## HOSTED- LIVE:
+
+-If you want to see this app in real, then i have deployed that app on firebase.
+    
+    link: https://ng-recipe-book-bb122.firebaseapp.com/auth
+
+- I have made a dummy user account for better User Experience. Login using these credentials:
+        
+        E-mail ID : test@test.com
+        password   : tester
+
+- After logging -in you must click on " MANAGE " (on top-right corner) and click on " FETCH DATA " to load all the recipes.
+
+- To access source code: https://drive.google.com/drive/folders/105OmFucYwm21e2hlVNEZFfCtHJAxWlaN?usp=sharing
+
+**[NOTE]: Please refer to HOW-TO-RUN.md file in order to run this code on your system. Otherwise, it won't work.**
+    
 ## WEB- APP SCREENSHOTS:
 
 **1. Login Route:**
@@ -43,7 +60,7 @@ Build an awesome reactive front-end web application, designed especially for tho
 ![](/recipe_book_screenshots/7.now-you_can_manage.png)
 
 
-**1. Products Route:**
+**2. Products Route:**
 
 
 - If user click on "NEW RECIPE", then the user can enter the required information related to recipe; **NOTE THAT: You must add image URL of an image present on the internet.As soon as the user enter the URL in the box, the image will be loaded automatically ffrom the internet**
