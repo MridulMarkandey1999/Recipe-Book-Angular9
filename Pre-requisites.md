@@ -35,11 +35,11 @@
   
   c) Click “add project”
   
-  d) Give name to your project “ng-course-recipe-book” press continue and create your project.
+  d) Give name to your project “ng-recipe-book” press continue and create your project.
   
   e) Then after that, click DataBase --->In realtime database, click create database ---> start in test mode ----> enable
   
-  f) In rules, change default text to this text:
+  f) In rules, change default text to this text and click Publish:
   
                 {
                   "rules": {
@@ -48,17 +48,17 @@
                   }
                 }
         
-  g) Go to data and copy your  URL ; for eg : mine is **https://ng-course-recipe-book-55554.firebaseio.com/**
+  g) Go to data and copy your  URL ; for eg : mine is **https://ng-recipe-book-bb122.firebaseio.com/**
   
   h) In VS CODE, go to src→ app→ shared→ data-storage.service.ts, in there paste that above link in .put() and .get(), and add    recipes.json in the end 
 
     So the complete URL becomes:
-    **https://ng-course-recipe-book-55554.firebaseio.com/recipes.json**
+    **https://ng-recipe-book-bb122.firebaseio.com/recipes.json**
     **Copy your URL , NOT MINE.**
 
   i) Then go to authentication→ sign-in methods → email/password→ click on enable( only the upper one, don’t touch below one) → save
 
-  j) Click on settings icon adjacent to Project Overview → **project settings→ copy your WEB API KEY (mine is AIzaSyC-eBn11t2PDvFo4CrGDSSm13fIeZ2nQ_U)
+  j) Click on settings icon adjacent to Project Overview → **project settings→ copy your WEB API KEY (mine is AIzaSyDZ05eBcR-MkhYB3N5qh206ItCc-P-Qq1g)
   
   k) Go to VS Code→ src→ environment→ Open environment.ts → **Replace your key** with mine written alongside firebase APIKey → Open environment.prod.ts→ **Replace your key** with mine written alongside firebase APIKey.
   
@@ -92,5 +92,5 @@ And copy endpoint link.
 
 
 
-- Open Command prompt (Administrator), write these commands → cd final-project → firebase init → with down arrow key go to  hosting , press space to select, then press enter→ choose the project ( ng-course-recipe-book) → (public) dist/ng-complete-guide-update → Yes ( for single-page app) →  No ( for overwrite) → Copy the hosting URL provided by your Firebase CLI → enter in browser to see your app running on a hosted server .
+- Open Command prompt (Administrator), write these commands → cd final-project → firebase init → press enter for Y → With down arrow key go to  hosting , press space to select, then press enter→ choose an existing project the project ( ng-recipe-book) → write this in terminal when asked about public directory: dist/ng-complete-guide-update → Yes ( for single-page app) →  No ( for overwrite) → Write "firebase deploy" command in terminal → Copy the hosting URL provided by your Firebase CLI → enter in browser to see your app running on a hosted server .
 
