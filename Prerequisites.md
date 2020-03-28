@@ -8,18 +8,18 @@
   b) After downloading and installing, now open command prompt as Administrator
   
   c) On the CLI write, npm install -g @angular/cli ( if using MAC write sudo prior to this command)
-  
-  d) Also you must have one IDE. I have used Visual Studio for this. You can download the same from here: 
-        
-        https://code.visualstudio.com/download
 
-  e)Then type these commands:( don’t include $ )
+  d)Then type these commands:( don’t include $ ) ( in command prompt running as administrator )
   
         $ ng new final-project
 
         $ cd final-project
           
-
+  e) Also you must have one IDE. I have used Visual Studio for this. You can download the same from here: 
+        
+        https://code.visualstudio.com/download
+        
+        
 - You must have bootstrap version 3. Run these commands in command prompt ( as administrator )
         
         $ npm install --save bootstrap@3
