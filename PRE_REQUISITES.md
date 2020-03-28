@@ -23,5 +23,13 @@
 - You must have bootstrap version 3. Run these commands in command prompt ( as administrator )
         
         $ npm install --save bootstrap@3
+
+
+- For accessing the web-app you should have a browser. So, **Chrome broswer is highly recommended**.
+
+
+- You must have a firebase account. So, if you don't have, create one by following this link:
+
+      https://firebase.google.com/
         
 
