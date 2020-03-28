@@ -94,7 +94,7 @@ SO BEFORE PROCEEDING WITH THESE STEPS PLEASE REFER TO ***PREREQUISITES.MD*** FIL
  
         $ npm install  -g  firebase-tools
     
-        It will prompt you to log in. So through CLI, log in to your firebase account
+        For the first time, it will prompt you to log in to your firebase account. So through CLI, log in to your firebase account
   
  - Finally, the last step is, open Command prompt (Administrator), write these commands :
  
