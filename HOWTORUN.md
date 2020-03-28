@@ -3,4 +3,10 @@ NOTE: FIRST OF ALL, IN ORDER TO CONTINUE YOU MUST HAVE ALL THE PRE-REQUISITES SA
 SO BEFORE PROCEEDING WITH THESE STEPS PLEASE REFER TO ***PREREQUISITES.MD*** FILE 
 
 
-# HOW-TO-RUN
+# HOW-TO-RUN:
+
+- Download the source code from the link provided to you.
+
+- Extract the file contents.
+
+- 
