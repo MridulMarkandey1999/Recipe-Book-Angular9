@@ -87,4 +87,4 @@ Build an awesome reactive front-end web application, designed especially for tho
 
 ![](/recipe_book_screenshots/16.once_added_all_recipes.png)
 
-In case of any help or suggestion, you can contact me at **mridul.mark@gmail.com**
+In case of any help or suggestion, you can contact me at **mridul.mark@gmail.com** 
